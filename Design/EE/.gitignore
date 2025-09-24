@@ -1,0 +1,133 @@
+cat > .gitignore << 'EOF'
+# ==============================
+# Common
+# ==============================
+*.bak
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==============================
+# KiCad (v5/v6/v7/v8)
+# ==============================
+# Cache / autosave
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_dru
+*.xml
+
+# Generated outputs
+*.net
+*.dsn
+*.ses
+*.cmp
+*.rpt
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Plot / export directories
+*.pdf
+*.svg
+*.ps
+*.png
+*.stl
+*.wrl
+*.3dshapes/
+
+# Simulation
+*.cir
+*.out
+*.raw
+
+# ==============================
+# Cadence Allegro / OrCAD
+# ==============================
+# Autosave / backup
+*.log
+*.drl
+*.rpt
+*.ses
+*.tmp
+*.b#*
+*.t#*
+*.alg
+*.ilk
+*.jou
+*.out
+*.err
+
+# Database / cache
+*.dat
+*.ddb
+*.bck
+*.mddb
+*.cpm
+*.dml
+*.sdb
+*.sf
+*.cfg
+
+# Simulation / analysis
+pspice.ini
+*.sim
+*.sw0
+*.sw1
+*.sw2
+*.ac0
+*.tr0
+*.out
+
+# Generated artwork / exports
+*.ger
+*.pho
+*.art
+*.nc
+*.zip
+
+# ==============================
+# Altium Designer
+# ==============================
+# Backups / history
+History/
+__Previews/
+Project Logs for*/ 
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.DbLibPreview
+*.dmp
+
+# Autosave / lock
+*.sav
+*.Lock
+
+# Generated outputs
+*.OutJob
+*.rpt
+*.zip
+*.7z
+*.tar.gz
+
+# Compiled binaries
+*.exe
+*.dll
+
+# Temporary
+*.cfg
+*.log
+*.tmp
+
+# ==============================
+# OS junk
+# ==============================
+ehthumbs.db
+desktop.ini
+EOF
+
